@@ -5,7 +5,7 @@ from lxml import etree
 print('#'*10, '2. Intro: LXML, XPath, CSS selectors', '#'*10)
 
 # etree.parse เป็นการดึงข้อมูลจากเว็บ 
-tree = etree.parse("D:\_Mill\Works_education\Higher\_Workshop\FutureSkill\PythonWebScraping\CODE\src\web_page.html")
+tree = etree.parse(" **อย่าลืมเปลี่ยน Path เป็น web_page.html ** ") 
 #print(tree) # จะ print ได้ <lxml.etree._ElementTree object at 0x0000023640310540>
 
 
